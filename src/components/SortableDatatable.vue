@@ -42,14 +42,19 @@
 <script>
     import $ from 'jquery'
     import dt from 'datatables.net'
+
+    require('moment')
+    require('datatables.net-plugins/sorting/datetime-moment')
     
     export default {
         name: 'SortableDatatable',
         mounted() {
+            $.fn.dataTable.moment('DD-MM-YYYY'); 
             $('#sortingtable').DataTable({
                 info: false,
                 lengthChange: false,
-                filter: false
+                filter: false,
+                paging: false,
             })
         }
     }

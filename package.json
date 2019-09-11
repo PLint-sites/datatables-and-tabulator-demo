@@ -9,7 +9,9 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "datatables.net": "^1.10.19",
+    "datatables.net-plugins": "^1.10.19",
     "jquery": "^3.4.1",
+    "moment": "^2.24.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
