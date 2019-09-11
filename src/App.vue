@@ -1,17 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <sortable-datatable></sortable-datatable>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import SortableDatatable from './components/SortableDatatable'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SortableDatatable
   }
 }
 </script>
