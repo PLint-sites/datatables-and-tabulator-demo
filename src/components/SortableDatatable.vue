@@ -43,8 +43,8 @@
     import $ from 'jquery'
     import dt from 'datatables.net'
 
-    require('moment')
-    require('datatables.net-plugins/sorting/datetime-moment')
+    import 'moment'
+    import 'datatables.net-plugins/sorting/datetime-moment'
     $.fn.dataTable.moment('DD-MM-YYYY'); 
     
     export default {
