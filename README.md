@@ -9,7 +9,7 @@ Here I'll show two ways of sorting a simple table.
 Note that both date sortings are based on moment.js.
 
 Here is how it looks:
-![Screenshot of the tables](https://github.com/PLint-sites/datatables-and-tabulator-demo/tree/master/src/assets/sorting-tables-demo.png)
+![Screenshot of the tables](https://github.com/PLint-sites/datatables-and-tabulator-demo/blob/master/src/assets/sorting-tables-demo.png)
 
 ## Project setup
 ```
