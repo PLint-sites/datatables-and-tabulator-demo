@@ -1,4 +1,12 @@
-# datatables-demo
+# datatables-and-tabulator-demo
+Sorting columns of a table is rather easy using Datatables.net. However,
+sorting a column holding dates has always been a bit tricky. 
+
+Here I'll show two ways of sorting a simple table.
+1. using jQuery, Datatables.net and Datatables.net plugins
+2. using vue-tabulator
+
+Note that both date sortings are based on moment.js.
 
 ## Project setup
 ```
@@ -13,16 +21,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
