@@ -6,6 +6,11 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+// Although we ignore moment's locales, we may import a single one and use it.
+// require('moment/locale/nl')
+// moment.locale('nl')
+// console.log('current date: ', moment().format('dddd, MMMM D YYYY'))
+
 window.moment = moment
 Vue.use(VueTabulator)
 

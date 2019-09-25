@@ -51,7 +51,6 @@
     import 'datatables.net'
 
     // Import moment and datatables.net plugin for sorting using moment
-    import 'moment'
     import 'datatables.net-plugins/sorting/datetime-moment'
 
     // Define the format of the date column(s)
