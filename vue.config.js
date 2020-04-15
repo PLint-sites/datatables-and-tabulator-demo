@@ -6,6 +6,10 @@ module.exports = {
             // Ignore all locale files of moment.js
             new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
         ],
-    }
-    
-}
+    },
+    pluginOptions: {
+        webpackBundleAnalyzer: {
+            openAnalyzer: false,
+        },
+    },
+};
