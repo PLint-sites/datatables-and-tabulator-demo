@@ -30,7 +30,7 @@
                     },
                 ],
                 options: {
-                    height: 500,
+                    height: 200,
                     layout: 'fitColumns',
                     columns: [
                         {

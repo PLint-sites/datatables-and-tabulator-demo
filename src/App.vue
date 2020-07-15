@@ -12,17 +12,21 @@
     <sortable-datatable></sortable-datatable>
     <h2>Sorting using Tabulator</h2>
     <sortable-tabulator></sortable-tabulator>
+    <h2>Sorting using Gridjs.io</h2>
+    <sortable-grid></sortable-grid>
   </div>
 </template>
 
 <script>
 import SortableDatatable from './components/SortableDatatable'
 import SortableTabulator from './components/SortableTabulator'
+import SortableGrid from './components/SortableGrid'
 export default {
   name: 'app',
   components: {
     SortableDatatable,
-    SortableTabulator
+    SortableTabulator,
+    SortableGrid
   }
 }
 </script>

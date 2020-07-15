@@ -10,6 +10,8 @@
     "core-js": "^3.6.4",
     "datatables.net": "^1.10.19",
     "datatables.net-plugins": "^1.10.19",
+    "dayjs": "^1.8.29",
+    "gridjs-vue": "^0.4.1",
     "jquery": "^3.5.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
