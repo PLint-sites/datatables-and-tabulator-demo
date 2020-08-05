@@ -15,7 +15,6 @@ export default {
   components: { Grid },
   data() {
     return {
-      cols: ['Name', 'City & Country', 'Date of Birth', 'Last login date'],
       columns: [{
         name: 'Name',
         width: '150px'
