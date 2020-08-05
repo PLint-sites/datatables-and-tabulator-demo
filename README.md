@@ -9,6 +9,9 @@ Here I'll show three ways of sorting a simple table.
 
 Note that the first tow options use moment.js for date sorting. The latter uses dayjs, the light weight alternative to moment.
 
+# Blog
+[Read all details on our blog](https://www.blog.plint-sites.nl/sorting-table-dates-in-vue/)
+
 Here is how it looks:
 ![Screenshot of the tables](https://www.blog.plint-sites.nl/wordpress/wp-content/uploads/2020/08/tables-demo-3-plugins.png)
 
