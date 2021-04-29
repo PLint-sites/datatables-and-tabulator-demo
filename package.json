@@ -7,26 +7,26 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "datatables.net": "^1.10.22",
-    "datatables.net-plugins": "^1.10.19",
-    "dayjs": "^1.8.29",
+    "core-js": "^3.11.1",
+    "datatables.net": "^1.10.24",
+    "datatables.net-plugins": "^1.10.24",
+    "dayjs": "^1.10.4",
     "gridjs-vue": "^0.4.1",
-    "jquery": "^3.5.0",
-    "less": "^3.10.3",
+    "jquery": "^3.6.0",
+    "less": "^3.13.1",
     "less-loader": "^5.0.0",
-    "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.0",
-    "tabulator-tables": "^4.4.1",
-    "vue": "^2.6.10",
-    "vue-tabulator": "^1.2.1"
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "tabulator-tables": "^4.9.3",
+    "vue": "^2.6.12",
+    "vue-tabulator": "^1.3.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.1",
-    "@vue/cli-service": "~4.3.1",
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
     "vue-cli-plugin-webpack-bundle-analyzer": "~2.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.12"
   },
   "postcss": {
     "plugins": {
