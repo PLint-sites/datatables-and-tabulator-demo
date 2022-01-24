@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.11.1",
-    "datatables.net": "^1.10.24",
+    "datatables.net": "^1.11.3",
     "datatables.net-plugins": "^1.10.24",
     "dayjs": "^1.10.4",
     "gridjs-vue": "^0.4.1",
